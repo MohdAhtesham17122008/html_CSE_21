@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Experiment 5</title>
+
+<style>
+h2 {
+    text-align: center;
+    }
+
+p {
+   text-align: center;
+   }
+
+form {
+      width: 350px;
+      margin: auto;
+    }
+
+input, select, textarea {
+ width: 100%;
+ padding: 8px;
+ margin-top: 5px;
+        }
+
+input[type="radio"] {
+width: auto;
+        }
+input[type="submit"] {
+  width: 120px;
+  background: #007bff;
+   color: rgb(109, 19, 19);
+  border: none;
+  padding: 10px;
+cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background: #0056b3;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h2>Student Registration Form</h2>
+    <hr>
+
+    <form action="submit.html" method="post">
+        
+        
+
+        
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter valid email address" required>
+        <br><br>
+
+<label for="contact">Contact No:</label>
+        <input type="tel" id="contact" name="contact" placeholder="Enter phone number" required>
+        <br><br>
+
+
+<label for="gender">Gender:</label><br>
+        <input 
+
+type="radio" id="male" name="gender" value="male"> Male
+        <input type="radio" id="female" name="gender" value="female"> Female
+        <input type="radio" id="other" name="gender" value="other"> Other
+        <br><br>
+
+        <br><br>
+
+        
+
+                <input type="submit" value="SUBMIT">
+
+    </form>
+
+    <hr>
+    <p>Student Registration Portal</p>
+
+</body>
+</html>
